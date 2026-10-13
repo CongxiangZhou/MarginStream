@@ -1,5 +1,23 @@
 # MarginStream
 
+**Course**: SC6118 — Scalable Systems Architecture for Fintech · NTU (Capstone)  
+**Group**: 1
+
+For the original team repository, including the full pull request history, see [liukefan821/marginstream](https://github.com/liukefan821/marginstream).
+
+## Team
+
+| Member | Sections owned (whitepaper §9.5) |
+| --- | --- |
+| LIU Kefan | §2 Architecture · §7 Trade-offs and alternatives · §9 and Appendices A, C, D |
+| ZHOU Congxiang | §1 Business context and requirements · §3 Consistency map |
+| ZHANG Haoxi | §4 Data and storage design · §5.1–5.3 State, log, idempotency chain |
+| WU Youjhen | §5.4–5.7 Liquidation, waterfall, recovery · §6 Security and threat model · §8 Operations · Appendices E, F |
+
+The full whitepaper is [paper/MarginStream_whitepaper.pdf](paper/MarginStream_whitepaper.pdf).
+
+---
+
 A deterministic simulator for cross-margin admission control on a symbol-sharded
 derivatives venue. It is the evidence base for the whitepaper in `paper/`.
 
